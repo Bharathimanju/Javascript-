@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <button type="button" onclick="subject()">click  button</button>
+        <p id="para"></p>
+        <script>
+            function subject(){
+                var t1;
+                if(confirm("press a button "))
+                {
+                    t1="welcome press ok button"
+                }
+                else{
+                    t1="welcome cancel button"
+                }
+            }
+            document.getElementById("para").innerHTML=t1;
+        </script>
+    </body>
+</html>
