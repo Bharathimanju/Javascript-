@@ -1,0 +1,34 @@
+<body>
+    
+    enter the value :: <input type="text" id="blur" onblur="myfun()">
+    <h1 id="demo"></h1>
+    <script>
+        function myfun(){
+            var x=document.getElementById("blur").value;
+            document.getElementById("demo").innerHTML="you entered:: "+x;
+            alert(x)
+        }
+    </script>
+
+</body>
+
+<body>
+    
+    enter the value :: <input type="text" id="blur" onblur="myfun()">
+    <h1 id="demo"></h1>
+    <script>
+        function myfun(){
+            var x=document.getElementById("blur").value;
+            // document.getElementById("demo").innerHTML="you entered:: "+x;
+            alert(x)
+            if (x=="")
+            {
+                alert("please enter the value")
+            }
+            else{
+                alert("you enter the value is ::" +x)
+            }
+        }
+    </script>
+
+</body>
