@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title></title>
+        <style>
+            .example{
+                color:red;
+                font-size: 40px;
+            }
+            #one{
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                color:blue;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="example"> This is the first paragaraph</div>
+        <div class="example"> This is the second paragaraph</div>
+        <div class="example"> This is the thirt paragaraph</div>
+        <div id="one"> this is a id selector</div>
+        <script>
+            var query=queryselectorAll(".example")
+            if(query)
+            {
+                console.log("This is the first paragaraph"+query)
+            }
+            var one=queryselectorAll("#one")
+            if(one)
+            {
+                console.log("id selector"+one)
+            }
+        </script>
+        
+
+    </body>
+
+</html>
